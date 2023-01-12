@@ -1,0 +1,206 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+html, h1, h2, h3, h4, h5, h6 {
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background-color: #8200a6;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+header{
+    background-color: indigo;
+    height: 70px;
+    text-align: center;
+}
+header *{
+    color: aliceblue;
+}
+header h1{
+    margin-top: 13px;
+}
+.logo {
+    width: 200px;
+}
+header h1 a:hover{
+    margin-top: 13px;
+    text-decoration-line: none;
+    color:aliceblue;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+header ul li{
+    float: left;
+    position: relative;
+}
+header ul li a{
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 20px;
+}
+header ul li a:hover{
+    background-color: rgb(48, 0, 82);
+    transition: 0.7s;
+    color: aliceblue;
+    text-decoration: none;
+}
+header ul li ul{
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: 180px;
+    z-index: 111;
+    display: none;
+}
+header ul li:hover ul{
+    display: block;
+}
+header ul li ul li{
+    width: 100%;
+}
+header ul li ul li a{
+    background-color: aliceblue;
+    color: #8200a6;
+    padding: 10px;
+}
+.sldiv{
+    padding-top: 20px;
+    width: 95vw;
+    padding-bottom: 70px;
+}
+.slogon {
+    color: white;
+    font-size: 60px;
+    
+    font-weight: 700;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.prew {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+.block {
+    float: left;
+    display: inline-block;
+    margin-left: 200px;
+    width: 35vw;
+}
+.blocktext {
+    margin-right: 0;
+    padding: 0;
+}
+.blockphoto {
+    margin-left: 0;
+    padding: 0;
+}
+.bone{
+    width: 30vw;
+    height: 10vh;
+    background-color:deeppink;
+    font-size: 35px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    box-shadow: 7px 7px 45px 0px fuchsia;
+}
+.bone:hover {
+    transition: all 0.7s;
+    background-color:orchid;
+    color:#8200a6;
+    box-shadow: 7px 7px 30px 0px deeppink ;
+}
+.timer__items {
+    margin-left: 200px;
+    margin-top: 100px;
+    color: aliceblue;
+    display: flex;
+}
+.timeh{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 20px;
+}
+.timeh-c{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: line-through;
+}
+.advg{
+    margin-left: 200px;
+    margin-bottom: 1400px;
+}
+.adv{
+    box-shadow: 0px 0px 40px 15px #8d00b4;
+    display: inline-block;
+    width: 18vw;
+    float: left;
+    height: 30vh;
+    background-color:#8d00b4;
+    margin-right: 180px;
+    text-align: center;
+    color:aliceblue ;
+    margin-top: 80px;
+}
+.adv:hover {
+    background-color: #8200a6;
+}
+.imi {
+    width: auto;
+    height: 100px;
+}
+.questiong {
+    height: 800px;
+    width: 98.5vw;
+    margin-bottom: 400px;
+}
+.slquest {
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 200px;
+    color: aliceblue;
+    display: inline-block;
+    margin-right: 700px;
+    text-shadow:rgba(225, 0, 255, 0.8) 5px 5px 1px;
+}
+.question {
+    display: grid;
+    margin-left: 200px;
+    color: aliceblue;
+    background-color: rgb(194, 35, 120);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: 60vw;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.qc {
+    margin-right: 50px;
+    margin-left: 40px;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+h3 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
